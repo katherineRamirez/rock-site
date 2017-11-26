@@ -1,0 +1,60 @@
+/* Media query para todo tipo de pantalla */
+@media (min-width: 200px) and (max-width: 824px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	#myHeader{
+		height: 70px;
+	}
+	.p-header{
+		margin-left: 0;
+}
+	.ul-header li{
+		display: none;
+	}
+	.fa-bars{
+		display: inline-block;
+		float: right;
+		font-size: 30px;
+		position: relative;
+		bottom: 50px;
+		border: 2px solid #848484;
+		border-radius: 3px;
+		padding: 5px 8px;
+		right: 30px;
+		color: #848484;
+	}
+	.img-container1{
+		position: relative;
+		bottom: 50px;
+		height: 550px;
+	}
+	.title{
+		margin-top: 50px;
+		left: 0;
+	}
+	.title-container1{
+		font-size: 90px;
+	}
+	.subtitle-container1{
+		font-size: 60px;
+	}
+	.text, .text2, .text3{
+		margin-top: 100px;
+		margin-left: 30px;
+	}
+	.img-container2, .img-container3, .img-container4{
+		width:300px;
+    	height:300px;
+    	margin-left: 50px;
+    	margin-top: 150px;
+	}
+	#footer{
+		height: 150px;
+		font-size: 20px;
+		margin-top: 300px;
+	}
+	.p-footer{
+		margin-top: 50px;
+	}
+}
