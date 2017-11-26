@@ -1,4 +1,4 @@
-/* Media query para todo tipo de pantalla */
+/* Media Querie para adaptar mi web con un ancho mínimo de 200px y máximo de 824px */
 @media (min-width: 200px) and (max-width: 824px) {
 	[class*="col-"] {
 		width: 100%;
@@ -8,7 +8,7 @@
 	}
 	.p-header{
 		margin-left: 0;
-}
+	}
 	.ul-header li{
 		display: none;
 	}
